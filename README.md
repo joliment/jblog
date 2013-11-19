@@ -10,9 +10,16 @@ Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
 na swoje konto na serwerze *Sigma*.
 
 Cała procedura może wyglądać tak:
-<pre>git clone git@github.com:⟨twój login na <b>githubie</b>⟩/jblog.git blog
+<pre>git clone git@github.com:githubusername/jblog.git blog
 cd blog
 </pre>
+
+co prawdopodobnie w serwerze sigma będzie wymagało klucza ssh ;/ więc klonowanie przez https będzie bardziej wskazane:
+
+<pre>git clone https://github.com/githubusername/jblog.git
+# Clones your fork of the repository into the current directory in terminal
+cd blog
+</pre> 
 
 
 ## Jak zacząć?
